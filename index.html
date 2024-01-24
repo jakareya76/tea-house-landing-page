@@ -51,7 +51,7 @@
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                class="w-5 h-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -75,9 +75,9 @@
               <li>Contact</li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+          <a class="text-xl btn btn-ghost">daisyUI</a>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="hidden navbar-center lg:flex">
           <ul class="menu menu-horizontal text-[#1C1C1C] px-1 gap-5">
             <li>Home</li>
             <li>About</li>
@@ -89,9 +89,9 @@
       </nav>
       <!-- Banner area -->
       <div
-        class="py-20 flex flex-col-reverse items-center justify-between gap-5 lg:flex-row"
+        class="flex flex-col-reverse items-center justify-between gap-5 py-20 lg:flex-row"
       >
-        <div class="hero-content flex-col lg:flex-row">
+        <div class="flex-col hero-content lg:flex-row">
           <div>
             <h1
               class="text-3xl font-extrabold leading-tight sm:text-4xl md:text-5xl xl:text-7xl"
@@ -105,19 +105,19 @@
               Your Taste Buds.
             </p>
             <button
-              class="text-white text-lg py-4 px-8 rounded-lg bg-gradient-to-r from-red-400 to-amber-800"
+              class="px-8 py-4 text-lg text-white rounded-lg bg-gradient-to-r from-red-400 to-amber-800"
             >
               Explore More
-              <i class="fa-solid fa-arrow-trend-up ml-2"></i>
+              <i class="ml-2 fa-solid fa-arrow-trend-up"></i>
             </button>
           </div>
         </div>
         <div class="relative flex">
           <img src="./images/banner.png" class="self-end" />
           <div
-            class="absolute bottom-0 bg-white w-64 h-28 shadow-lg flex items-center justify-center gap-4 rounded-md"
+            class="absolute bottom-0 flex items-center justify-center w-64 gap-4 bg-white rounded-md shadow-lg h-28"
           >
-            <i class="fa-solid fa-star text-amber-400 text-4xl"></i>
+            <i class="text-4xl fa-solid fa-star text-amber-400"></i>
             <div class="flex flex-col gap-1">
               <h2 class="text-[#1C1C1C] text-4xl font-extrabold">5.00</h2>
               <p class="text-[#777]">Trust Pilot Ratings</p>
@@ -138,7 +138,7 @@
           humour, or randomised words which don't look even slightly believable.
         </p>
         <div class="flex items-center justify-center mt-10">
-          <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
             <!-- Card -->
             <div
               class="max-w-72 p-10 flex flex-col items-center justify-center bg-gradient-to-t from-[#f4f4f450] to-[#ece2e2] rounded-md"
@@ -188,6 +188,49 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- Freshly Presented Section -->
+      <section
+        class="flex flex-col items-center justify-center gap-8 py-10 md:flex-row"
+      >
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 md:grid-rows-3">
+          <div class="col-span-1 row-span-1 rounded-xl bg-amber-100"></div>
+          <div
+            class="flex items-center justify-center row-span-2 p-8 bg-gray-200 rounded-xl"
+          >
+            <img src="./images/fresh-1.png" alt="" />
+          </div>
+          <div
+            class="flex items-center justify-center row-span-2 p-8 bg-red-200 rounded-xl"
+          >
+            <img src="./images/fresh-2.png" alt="" />
+          </div>
+          <div class="col-span-1 row-span-1 rounded-xl bg-amber-100"></div>
+        </div>
+        <div class="px-5">
+          <h2 class="text-[#1C1C1C] text-5xl font-bold leading-snug">
+            Great Tea, Freshly <br />
+            Presented
+          </h2>
+          <p class="text-[#777] max-w-xl my-4">
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <h4 class="text-[#1C1C1C] font-bold text-xl">Unique Taste</h4>
+          <p class="max-w-md text-[#777] mt-4">
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <h4 class="text-[#1C1C1C] font-bold text-xl mt-5">Premium Quality</h4>
+          <p class="max-w-md text-[#777] mt-4">
+            Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
         </div>
       </section>
     </main>
